@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(brew install:*)",
+      "Bash(brew services:*)",
+      "Bash(redis-cli:*)",
+      "Bash(lsof:*)",
+      "Bash(source:*)",
+      "Bash(uvicorn:*)",
+      "Bash(xargs kill:*)",
+      "Bash(curl:*)",
+      "Bash(kill:*)",
+      "Bash(find:*)",
+      "Read(//dev/fd/**)",
+      "Bash(./run.sh)",
+      "Bash(python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

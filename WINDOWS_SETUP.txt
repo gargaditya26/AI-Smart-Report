@@ -1,0 +1,19 @@
+SMARTREPORTS - WINDOWS / PYTHON 3.13
+
+1. Install Python 3.13 and Node.js (LTS).
+2. Extract this ZIP.
+3. Open Smartreport folder.
+4. Double-click start.bat.
+5. Browser: http://localhost:5173
+
+Manual backend:
+cd backend
+py -m pip install -r requirements.txt
+py -m uvicorn main:app --reload --port 8000
+
+Manual frontend (new CMD):
+cd frontend
+npm install
+npm run dev
+
+PDF generation uses ReportLab by default, so WeasyPrint GTK/Pango DLLs are NOT required.
